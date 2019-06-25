@@ -1,0 +1,8 @@
+delta.sql
+.vs
+*.dbmdl
+/packages/
+!packages/repositories.config
+/*/bin/*
+/*/obj/*
+
