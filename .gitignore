@@ -1,8 +1,12 @@
 delta.sql
 .vs
 *.dbmdl
+src/Decorator/packages/
+/*/packages/*
 /packages/
 !packages/repositories.config
-/*/bin/*
-/*/obj/*
-
+/bin/*
+/obj/*
+src/Decorator/*/bin/*
+src/Decorator/*/obj/*
+src/Decorator/Decorator.sln.DotSettings.user
