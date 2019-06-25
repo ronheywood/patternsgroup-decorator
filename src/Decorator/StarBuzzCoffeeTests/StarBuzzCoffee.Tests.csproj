@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CondimentsTest.cs" />
+    <Compile Include="OrderTests.cs" />
     <Compile Include="StoreTests.cs" />
   </ItemGroup>
   <ItemGroup>

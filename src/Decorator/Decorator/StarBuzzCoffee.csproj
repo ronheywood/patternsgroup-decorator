@@ -53,8 +53,11 @@
     <Compile Include="Condiments\Soy.cs" />
     <Compile Include="Condiments\SteamedMilk.cs" />
     <Compile Include="Condiments\Whip.cs" />
+    <Compile Include="IStarBuzzConsole.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StarBuzzConsole.cs" />
     <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>

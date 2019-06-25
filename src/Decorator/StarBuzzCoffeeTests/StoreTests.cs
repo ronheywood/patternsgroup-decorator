@@ -45,6 +45,14 @@ namespace StarBuzzCoffeeTests
             testCoffeeShop.PrintMenu();
             A.CallTo(() => _writer.WriteLine(A<string>.That.Contains($"£{cost:F2}"))).MustHaveHappened();
         }
+        [Test]
+        public void ShouldPrintTheOrder()
+        {
+            var menu = new List<Beverage>() { new DarkRoast(), new Espresso(), new HouseBlend(), new Decaf() };
+            var testCoffeeShop = new Store(menu, null, _writer);
+            Store.PlaceOrder(new DarkRoast());
+            A.CallTo(() => _writer.WriteLine(A<string>.That.Contains("your order"))).MustHaveHappened();
+        }
     }
 
     public class TestCoffee : Beverage
